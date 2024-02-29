@@ -1,0 +1,63 @@
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+}
+
+.yellow-stars {
+    position: absolute;
+    color: gold;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+.stars-container {
+    width: 80px;
+}
+
+.product-rating {
+    margin-bottom: 30px;
+}
+.product-title {
+    color: #3787d7;
+}
+
+button {
+    background-color: #fcb800!important;
+    font-weight: 500!important;
+}
+
+.discount-price {
+    color: rgb(232, 0, 0);
+    /* line-height: 16px; */
+}
+
+.price {
+    font-size: 16px;
+    font-weight: 500;
+    /* line-height: 1em; */
+}
+
+.regular-price {
+    color: rgb(177, 177, 177);
+    text-decoration: line-through;
+    font-size: 12px;
+    line-height: 23px;
+}
+
+.image-container {
+    height: 200px;
+    width: 200px;
+    position: relative;
+}
+
+.discount-tag {
+    position:absolute;
+    color: wheat;
+    background-color: red;
+    top: 0;
+    right: 0;
+    font-weight: 600;
+    padding: 2px 5px;
+    font-size: 13px;
+}
